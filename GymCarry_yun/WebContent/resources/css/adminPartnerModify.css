@@ -1,0 +1,416 @@
+/*기본값*/
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    max-height: 100%;
+    height: 100%;
+    background-color: #f6f2f1;
+    cursor: url(../img/cursor-pointer.png), auto;
+}
+a {
+    text-decoration: none;
+    cursor: url(../img/cursor-hand.png), auto;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.frame {
+    width: 1280px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+/**************헤더****************/
+header {
+    margin-top: 66px;
+    width: 100%;
+    height: 110px;
+}
+
+header>.frame {
+    border: solid 5px #000000;
+}
+
+header img {
+    display: block;
+    margin: 44px 0 0 44px;
+    float: left;
+}
+.navbar a {
+    color: #1b1b1b;
+}
+.nav-menu {
+    text-align: center;
+    width: auto;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: left;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1b1b1b;
+    padding: 0 20px 0 20px;
+    height: 105px;
+}
+.nav-menu:hover {
+    font-size: 0;
+}
+.first-nav {
+    margin-left: 200px;
+    width: 102px;
+}
+.first-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐스토리';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    height: 115px;
+}
+.second-nav {
+    width: 80px;
+}
+.second-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐팟';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.third-nav {
+    width: 120px;
+}
+.third-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐마켓';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.fourth-nav {
+    width: 98px;
+}
+.fourth-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 근딜';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.login-box li {
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: right;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1b1b1b;
+    border-left: solid 5px #000000; 
+}
+.login-box li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/**************헤더끝****************/
+/*****************메인시작************************/
+main {
+    width: 100%;
+}
+main>.frame {
+    border: solid 5px #000000;
+    background-color: #000;
+}
+.frame>.inner-frame {
+    width: 1080px;
+    height: inherit;
+    margin: 140px auto;
+}
+.inner-frame>.title {
+    display: block;
+    width: 500px;
+    height: 70px;
+    margin: 0 auto 80px;
+    padding-left: 50px;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2.5px;
+    color: #ffffff;
+    text-align: center;
+    
+}
+.inner-frame>.contents {
+    width: inherit;
+    height: inherit;
+}
+.sub-title {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    text-align: end;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 30px;
+    
+}
+#topcon .radio-box {
+    width: 730px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.box-radio-input input[type="radio"]{
+  display:none;
+}
+.box-radio-input input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:2px solid #dfdfdf;  
+  padding:0px 10px;
+  text-align:center;
+    width: 100px;
+  height:40px;
+  line-height:38px;
+  font-weight:500;
+  cursor:pointer;
+    border-radius: 50px;
+    color: white;
+    margin-right: 10px;
+}
+.last-radio input[type="radio"] + span{
+    margin-right: 0;
+}
+
+.box-radio-input input[type="radio"]:checked + span{
+  background:#fff;
+  color:#000;
+}
+ 
+#topcon .text-box {
+    width: 700px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    border: 0;
+}
+#topcon .short-box {
+    width: 150px;
+}
+#topcon .date-box {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    border: 0;
+    cursor: url(../img/cursor-pointer.png), auto;
+}
+
+#topcon p {
+    color: #fff;
+    width: 46px;
+    display: inline-block;
+   text-align: center;
+}
+
+.contents .smitbt {
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    background-color: #000;
+    border: solid 3px #fff;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    display:block;
+    cursor: url(../img/cursor-hand.png), auto;
+}
+.contents .smitbt:hover {
+    width: 300px;
+    height: 50px;
+    margin: 50px auto;
+    background-color: #fff;
+    border: solid 3px #000;
+    border-radius: 50px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    display:block;
+    cursor: url(../img/cursor-hand.png), auto;
+}
+.note-editable {
+	background-color: #fff;
+	text-align: left;
+}
+.note-editor {
+	display:inline-block;
+}
+
+.contitle {
+	display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: end;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 30px;
+    line-heght:500px;
+    margin-top: 0;
+}
+.file-box {
+    display: none;
+}
+
+.filname {
+	padding-left: 20px;
+	color:#fff;
+}
+
+.fileBtn {
+	padding: 6px 25px;
+	background-color:#000;
+	border-radius: 40px;
+	border: solid 1px #fff;
+	color: white;
+	cursor: pointer;
+}
+.fileBtnM {
+    margin-left: 20px;
+}
+.fileBtn:hover {
+	background-color:#fff;
+	color:#000;
+	border: solid 1px #000;
+}
+#teacher {
+    width: 700px;
+    display: inline-block;
+    height: inherit;
+    background-color: #fff;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+#teacher .teacher-title {
+    display: inline-block;
+    width: 60px;
+    height: 50px;
+    text-align: end;
+}
+
+#teacher .text-box {
+    width: 500px;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.tchbtn-box {
+    margin-right: 84px;
+    width: 762px;
+    height: inherit;
+    float: right;
+    margin-bottom: 50px;
+}
+.tchbtn{
+    width: 49%;
+    height: 50px;
+    background-color: #000;
+    border: solid 2px #fff;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+}
+main .line {
+    width: 1290px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.note-editable p {
+	margin: 0;
+}
+
+/*****************메인끝************************/
+/******************푸터********************/
+footer {
+    width: 100%;
+    height: 300px;
+}
+footer>.frame {
+    border: solid 5px #000000;
+    background-color: #000;
+}
+footer img {
+    margin-top: 58px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+
+.footer-contents {
+    width: 1182px;
+    margin-left: 44px;
+    padding-bottom: 28px;
+    border-bottom: solid 1px #888;
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    line-height: 15px;
+}
+footer .stick:after {
+    content: "";
+    top: 1px;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.copyright {
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-left: 44px;
+}
+.copyright span {
+    font-size: 20px;
+    line-height: 0;
+    vertical-align: middle;
+    margin-top: 2px;
+    display: inline-block;
+}
+

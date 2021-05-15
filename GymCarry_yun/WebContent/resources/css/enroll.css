@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*************************************메인**********************************/
+  .main {
+  width: 100%;
+}
+
+.main-frame {
+  width: 1280px;
+  border: solid 5px #000000;
+  margin: 5px auto 0px auto;
+}
+
+.title-1 {
+  margin: 50px 0px 0px 0px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 33px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+}
+
+.title-2 {
+  padding: 15px 0px 60px 0px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 33px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.enroll-form ul li {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 17px;
+  color: #000;
+  line-height: 1.5;
+  margin: 0 34%;
+}
+
+.enroll-form ul input[type="text"],
+[type="password"] {
+  font-size: 14px;
+  margin: 5px 0px;
+  background: none;
+  font-family: "Noto Sans KR", sans-serif;
+  vertical-align: middle;
+  outline: none;
+  text-rendering: auto;
+  letter-spacing: normal;
+  text-indent: 0px;
+  display: inline-block;
+  text-align: start;
+  cursor: text;
+  width: 400px;
+  height: 46px;
+  border: 3px solid center;
+  padding: 0px 9px 2px 9px;
+  outline: 0;
+}
+
+input[type="radio"] {
+	margin: 10px;
+	font-size: 14px;
+}
+
+li > a {
+  color: red;
+}
+
+#joinBtn {
+  width: 150px;
+  height: 47px;
+  max-width: 355px;
+  padding: 10px;
+  position: absoulte;
+  margin: 60px 0px 100px 38%;
+  font-size: 17px;
+  font-weight: bold; 
+}
+
+#cancelBtn {
+  width: 150px;
+  height: 47px;
+  max-width: 355px;
+  padding: 10px;
+  position: absoulte;
+  margin: 60px 0px 100px 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* 박스선 없애주는 것  */
+fieldset {
+    border: none;
+}
+/* keyup 글씨 가운데이동  */
+.mesdiv {
+	color : #690000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}

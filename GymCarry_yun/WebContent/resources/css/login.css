@@ -1,0 +1,154 @@
+@charset "UTF-8";
+
+.container {
+  width: 100%;
+  text-align:center;
+}
+
+.login-frame {
+  margin: 3px 5px 0px 5px;
+  border: solid 5px #000000;
+  background-color: #000000;
+  width: 1280px;
+  height: 650px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.login {
+  margin: 50px 0px 0px 0px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 33px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.id {
+  width: 15px;
+  height: 18px;
+  margin: 91px 25px 40px 1px;
+  font-family: Anton;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.userId {
+  width: 301px;
+  height: 40px;
+  margin: 79px 1px 30px 16px;
+  padding: 12px 126px 12px 33px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  font-size: 20p;
+  outline: 0;
+}
+
+.pw {
+  width: 15px;
+  height: 18px;
+  margin: 91px 25px 40px 1px;
+  font-family: Anton;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.userPwd {
+  width: 301px;
+  height: 40px;
+  margin: 20px 1px 30px 16px;
+  padding: 12px 126px 12px 33px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  font-size: 20px;
+  outline: 0;
+}
+
+.button {
+  width: 343px;
+  height: 41px;
+  margin: 61px 0 26px;
+  padding: 12px 151px 10px;
+  border-radius: 20px;
+  border: solid 1px #ffffff;
+  background-color: #000000;
+  font-family: Anton;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f6f2f1;
+  letter-spacing: 2px;
+}
+
+.bottomBtn {
+	text-decoration: none;
+	color: white;
+}
+
+.joinBtn :link {
+	text-decoration: none;
+	color:gray;	
+}
+
+.joinBtn :visited {
+	text-decoration: none;
+	color:gray;
+}
+
+.joinBtn :hover {
+	text-decoration: none;
+	color:gray;
+}
+
+.forget-msg {
+	font-weight: bold;
+	color: white;
+	text-size: 10px;
+}
+
+.congretMsg {
+  margin: 50px 0px 0px 0px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 33px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.logoutBtn {
+  width: 15px;
+  height: 18px;
+  margin: 91px 25px 40px 1px;
+  font-family: Anton;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5.5;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+/******************************************/

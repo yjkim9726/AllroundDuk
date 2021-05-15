@@ -1,0 +1,313 @@
+@charset "UTF-8";
+/* 기본 값 + 네비바 */
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    max-height: 100%;
+    height: 100%;
+    background-color: #F6F2F1;
+    /* cursor: url(/resources/img/cursor-pointer.png), auto; */
+}
+a {
+    text-decoration: none;
+    /* cursor: url(/resources/img/cursor-hand.png), auto; */
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.frame {
+    width: 1280px;
+    height: inherit;
+    margin: 0 auto;
+}
+
+/******************************/
+header {
+    margin-top: 66px;
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+header>.frame {
+    border: solid 5px #000000;
+}
+header img {
+    display: block;
+    margin: 44px 0 0 44px;
+    float: left;
+}
+.navbar a {
+    color: #1B1B1B;
+}
+.nav-menu {
+    text-align: center;
+    width: auto;
+    height: 105px;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: left;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1B1B1B;
+    padding: 0 20px 0 20px;
+}
+.nav-menu:hover {
+    font-size: 0;
+}
+.first-nav {
+    margin-left: 200px;
+    width: 102px;
+}
+.first-nav:hover:after {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐스토리';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.second-nav {
+    width: 80px;
+}
+.second-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐팟';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.third-nav {
+    width: 120px;
+}
+.third-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐마켓';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.fourth-nav {
+    width: 98px;
+}
+.fourth-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 근딜';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.login-box li {
+    text-align: center;
+    width: 100px;
+    /* 수정하기 밑에 공간이 남음  */
+    height: 115px;  
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: right;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1B1B1B;
+    border-left: solid 5px #000000;
+}
+.login-box li:hover {
+    background-color: #000;
+    color: #fff;
+}
+/* 기본 값 + 네비바  끝 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/* 메인 리스트 시작  */
+main{
+    width: 1280px;
+    height: auto;
+    margin: 0 auto;
+    border-left: solid 5px #000000;
+    border-right: solid 5px #000000;
+}
+
+.mytitle {
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: center;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin :0 auto;
+    padding-top: 100px;
+}
+
+.content-box {
+    width: 1000px;
+    height: inherit;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
+.review-box {
+    width: 100%;
+    height: 340px;
+    border: solid 3px #000000;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.review-title{
+    width: auto;
+    height: 50px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.review-content {
+    width: auto;
+    height: 200px;
+}
+.review-img {
+    width: 170px;
+    height: 170px;
+    float: left;
+    margin-top:10px;
+    padding-left: 80px;
+}
+.review-content div{
+   float: left;
+}
+.review-text {
+    width: 640px;
+    height : 150px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: #F6F2F1;
+    overflow-y: scroll;
+}
+.review-bottom {
+    width: auto;
+    height: 80px;
+    padding-left: 80px;
+}
+.recommend {
+   width: inherit;
+   height: inherit;
+   float: left; 
+   margin-left: 10px;
+}
+.recommend-img{
+    width: 35px;
+    height: 35px;
+}
+
+.modifybtn {
+    width: 500px;
+    height : inherit;
+    display: inline-block;
+    margin-left: 250px;
+}
+input[type=submit] {
+    width: 180px;
+    height: 35px;
+    background-color: #000000;
+    border: solid 3px black;
+    border-radius: 40px;
+    color: #f6f2f1;
+    font-size: 15px;
+    text-align: center;
+}
+
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #000000;
+}
+#deletebtn {
+    margin-left: 30px;
+   	display:inline-block;
+   	
+}
+.form {
+	width :180px;
+	margin :0px;
+	display : inline-block;
+}
+/* 불러올 리스트가 없을 때 알려주는 창 */
+.noContent{
+	width : 250px;
+	height:250px;
+	margin : 0 auto;
+	text-align: center;
+	
+}
+
+/******************푸터********************/
+footer {
+    width: 100%;
+    height: 300px;
+}
+footer>.frame {
+    border: solid 5px #000000;
+    background-color: #000;
+}
+footer img {
+    margin-top: 58px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+.footer-contents {
+    width: 1182px;
+    margin-left: 44px;
+    padding-bottom: 28px;
+    border-bottom: solid 1px #888;
+}
+footer p {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    line-height: 15px;
+}
+footer .stick:after {
+    content: "";
+    top: 1px;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0 6px;
+}
+.copyright {
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-left: 44px;
+}
+.copyright span {
+    font-size: 20px;
+    line-height: 0;
+    vertical-align: middle;
+    margin-top: 2px;
+    display: inline-block;
+}

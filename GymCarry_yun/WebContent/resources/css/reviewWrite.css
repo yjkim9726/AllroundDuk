@@ -1,0 +1,404 @@
+/*기본값*/
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    max-height: 100%;
+    height: 100%;
+    background-color: #F6F2F1;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.frame {
+    width: 1280px;
+    height: inherit;
+    margin: auto;
+}
+
+/*****해더 네비바*****/
+header {
+    margin-top: 66px;
+    width: 1275px;
+    height: 110px;
+    border: solid 5px #000000;
+}
+header img {
+    display: block;
+    margin: 44px 0 0 44px;
+    float: left;
+}
+
+.navbar a {
+    color: #1B1B1B;
+}
+.nav-menu {
+    text-align: center;
+    width: auto;
+    height: 105px;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: left;
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    color: #1B1B1B;
+    padding: 0 20px 0 20px;
+}
+.nav-menu:hover {
+    font-size: 0;
+}
+.first-nav {
+    margin-left: 200px;
+    width: 102px;
+}
+.first-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐스토리';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.second-nav {
+    width: 80px;
+}
+.second-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐팟';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.third-nav {
+    width: 120px;
+}
+.third-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐마켓';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.fourth-nav {
+    width: 98px;
+    height: 105px;
+}
+.fourth-nav:hover::before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 근딜';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.login-box li {
+    text-align: center;
+    width: 100px;
+    height: 115px;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: right;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1B1B1B;
+    border-left: solid 5px #000000;
+}
+.login-box li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+/***메인****/
+.content{
+    width: 1275px;
+    height: 820px;
+    border: 5px solid black;
+    border-top: none;
+}
+
+/***title***/
+.title{
+    padding: 80px 250px 20px 250px;
+}
+#name{
+    float: left;
+    font-size: 30px;
+    color: #D92121;
+    font-weight: 500;
+    margin-right: 5px;
+}
+#explan{
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.whether{
+    height: 50px;
+    padding: 10px 260px 20px 260px;
+}
+
+/*
+.whether input[type='checkbox']{
+    display: none;
+}
+
+.whether lable{
+    height: 70px;
+    width: 150px; 
+}
+
+.whether input[type="check_box"] + label .good{
+    padding: 0px 0px 0px 30px;
+    height: 20px;
+    background: url("/resources/img/good.png")no-repet;
+    cursor: url("/resources/img/cursor-pointer.png");
+}
+.whether input[type-"checkbox"]:checked + lable .good{
+    background: url("/resources/img/good-click.png")no-repet;
+}
+*/
+#good{
+    float: left;
+    height: 70px;
+    width: 150px;
+    outline: none;
+    border: none;
+    background: none;
+    
+}
+
+#good_img{
+   float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px; 
+}
+#good_text{
+    font-size: 19px;
+    font-weight: 400;
+    padding: 20px 15px 5px 25px;
+}
+
+#bad{
+    float: left;
+    height: 70px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 50px;
+    outline: none;
+    border: none;
+    background: none;
+}
+
+#bad_img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#bad_text{
+    font-size: 19px;
+    font-weight: 400;
+    padding: 15px 15px 5px 25px;
+}
+
+#write_box{
+    padding: 0px 50px 0px 250px
+}
+
+#rev_write{
+    vertical-align: middle; 
+    font-size: 18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.0px;
+    word-spacing: 2px;
+    line-height:30px; 40%;
+    border: solid 2.5px #C2C2C2;
+    border-radius: 5px;
+    resize: none ;
+}
+
+#counter{
+    font-weight: 400;
+    color: #888888;
+    font-size: 18px;
+}
+
+
+/**사진첨부**/
+#attach{
+    height: 50px;
+    width: 66%;
+    margin: 20px 250px 20px 250px
+}
+#att-text{
+    float: left;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 20px 0px 20px;
+    color: #585858;
+}
+
+#att-btn{
+    height: 70px;
+    width: 400px;
+    padding-top: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+    color: #585858;
+    	display: inline-block;
+/*     width: 200px;
+    height: 50px;
+    text-align: end;
+    font-size: 18px;
+    color: #fff;
+    margin-right: 30px;
+    line-heght:500px;
+    margin-top: 0; */
+
+}
+    #att-btn:active {
+        border: 0;
+        outline: 0;
+        background:#898989;
+    }
+
+#btn-text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.0px;
+}
+
+.btns{
+    height: 150px;
+    width: 500px;
+    margin: auto;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+
+#reset-btn{
+    float: left;
+    height: 50px;
+    width: 130px;
+    background: #585858;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: none;
+    outline: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.0px;
+}
+    #reset-btn:active {
+        border: 0;
+        outline: 0;
+        background:#898989;
+    }
+
+/* #reset-text{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.0px;
+} */
+
+#upload-btn{
+    height: 50px;
+    width: 130px;
+    background: #3AB7FA;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+    outline: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.0px;
+}
+#upload-btn:active {
+    border: 0;
+    outline: 0;
+    background:#898989;
+}
+/*푸터*/
+footer {
+    width: 1285px;
+    height: 300px;
+}
+    footer>.footer {
+        border: solid 5px #000000;
+        background-color: #000;
+    }
+    footer img {
+        margin-top: 58px;
+        margin-left: 44px;
+        margin-bottom: 20px;
+    }
+    .footer-contents {
+        width: 1182px;
+        margin-left: 44px;
+        padding-bottom: 28px;
+        border-bottom: solid 1px #888;
+    }
+    footer p {
+        color: #888;
+        font-size: 14px;
+        letter-spacing: -0.35px;
+        line-height: 15px;
+    }
+    footer .stick:after {
+        content: "";
+        top: 1px;
+        left: 0;
+        width: 1px;
+        height: 12px;
+        background: #444;
+        position: relative;
+        display: inline-block;
+        margin: 0 6px;
+    }
+    .copyright {
+        font-family: 'Anton', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.75;
+        color: #fff;
+        letter-spacing: 0.2em;
+        margin-left: 44px;
+    }
+    .copyright span {
+        font-size: 20px;
+        line-height: 0;
+        vertical-align: middle;
+        margin-top: 2px;
+        display: inline-block;
+    }
+

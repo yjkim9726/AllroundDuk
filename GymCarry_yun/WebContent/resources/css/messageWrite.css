@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: 'Noto Sans KR', sans-serif;
+	max-height: 100%;
+	height: 100%;
+	cursor: url(img/cursor-pointer.png), auto;
+}
+
+a {
+	text-decoration: none;
+	cursor: url(img/cursor-pointer.png), auto;
+}
+
+/* ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+} */
+.frame {
+	width: 1280px;
+	height: inherit;
+	margin: 0 auto;
+}
+
+.dialog {
+	position: fixed;
+	height: 650px;
+	margin: 0 auto;
+	background: #f6f2f1;
+	padding: 20px 30px 40px 26px;
+	-webkit-transition: all 180ms ease-in;
+	transition: all 180ms ease-in;
+}
+
+.dialog .back-button{
+	border: 0;
+	outline: 0;
+	background-color: transparent !important; /* 배경색 없애기 */
+}
+
+.dialog.dialog--active {
+	top: 10%;
+	visibility: visible;
+	opacity: 1;
+	-webkit-transition: all 250ms ease-out;
+	transition: all 250ms ease-out;
+}
+
+.dialog .dialog__back {
+	font-size: 2rem;
+	line-height: 2rem;
+	float: left;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	/* 	padding: 15px; */
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog .dialog__back:hover {
+	color: #E74C3C;
+}
+
+.dialog .dialog__close {
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	cursor: pointer;
+	padding: 5px 15px 5px 5px;
+	-webkit-transition: color 150ms ease;
+	transition: color 150ms ease;
+}
+
+.dialog .dialog__close:hover {
+	color: #E74C3C;
+}
+
+.dialog .dialog__title {
+	/* 	  width: 259px;
+  height: 45px; */
+	/*   margin: 32px 115px 46px 110px; */
+	font-family: Anton;
+	font-size: 50px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	/* 	line-height: 3.02;  */
+	letter-spacing: normal;
+	text-align: center;
+	color: #000000;
+	margin: 0 auto;
+	padding: 0;
+/* 	border-bottom: 3px solid #333333; */
+}
+
+.write-box {
+	width: 394px;
+	height: 400px;
+	margin: 0px 0px 15px 0px;
+	padding: 26px 1px 0px 2px;
+	font-size: 16px;
+	border: solid 3px #000000;
+	background-color: #ffffff;
+}
+
+.to {
+	margin: 0 8px 15px 32px;
+	font-family: Anton;
+	font-size: 22px;
+	text-align: left;
+	color: #333333;
+	float: left;
+}
+
+.user-id {
+	margin-top: 8px;
+	font-family: NotoSansKR;
+	font-size: 18px;
+	text-align: left;
+	color: #333333;
+	float: left;
+	font-family: NotoSansKR;
+}
+
+.write-tag {
+	width: 370px;
+	height: 350px;
+	padding: 0px 10px 10px 10px;
+	margin: 0;
+	background-color: #ffffff;
+}
+
+.write-text {
+	width: 360px;
+	height: 290px;
+	margin: 0px 10px 0px 5px;
+	background-color: #f6f2f1;
+	outline: 0;
+	resize: none;
+	border: none;
+}
+
+.byteInfo{
+	font-size: 13px;
+    margin-right: 20px;
+    float: right;
+}
+
+.send-btn {
+	width: 120px;
+	height: 40px;
+	margin-right: 20px;
+	/* 	padding: 16px 58px 17px 58px; */
+	padding-top: 5px;
+	border-radius: 25px;
+	border: solid 1px #000000;
+	color: white;
+	background: #000000;
+	font-size: 1.1rem;
+	float: right;
+	outline: 0;
+	cursor: pointer;
+}
+
+.send-btn:hover {
+	background: #f1f1f1;
+	color: #000000;
+	font-size: 1.1rem;
+	border: solid 2px #000000;
+}

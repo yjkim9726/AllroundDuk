@@ -1,0 +1,94 @@
+@charset "UTF-8";
+.main {
+  width: 100%;
+  text-align:center;
+}
+
+.main-frame {
+  margin: 3px 5px 0px 5px;
+  border: solid 5px #000000;
+  width: 1280px;
+  height: 800px;
+  margin: 5px auto;
+  text-align: center;
+}
+
+.index {
+  margin: 50px 0px 50px 0px;
+  font-size: 35px;
+  text-align: center;
+  line-height: 33px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  font-size: 12px;
+  margin: 5px auto 30px;
+  background: none;
+  font-family: "Noto Sans KR", sans-serif;
+  vertical-align: middle;
+  outline: none;
+  text-rendering: auto;
+  letter-spacing: normal;
+  text-indent: 0px;
+  display: inline-block;
+  text-align: start;
+  cursor: text;
+  width: 300px;
+  height: 25px;
+  border: 3px solid center;
+  padding: 0px 9px 2px 9px;
+  outline: 0;
+}
+
+.submitBtn {
+  width: 343px;
+  height: 41px;
+  margin: 61px 0 26px;
+  border-radius: 20px;
+  background-color: #000000;
+  font-family: Anton;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.0;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f6f2f1;
+  letter-spacing: 2px;
+}
+
+#user-id{
+  width: 150px;
+  height: 20px;
+  margin: 19px 1px 30px 16px;
+  padding: 12px 126px 12px 33px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  font-size: 16px
+}
+
+#pwd{
+  width: 150px;
+  height: 20px;
+  margin: 19px 1px 30px 16px;
+  padding: 12px 126px 12px 33px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  font-size: 20px
+}
+
+#pwd-re {
+  width: 150px;
+  height: 20px;
+  margin: 19px 1px 30px 16px;
+  padding: 12px 126px 12px 33px;
+  border-radius: 20px;
+  border: solid 1px #000000;
+  background-color: #ffffff;
+  font-size: 20px
+}

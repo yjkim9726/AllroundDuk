@@ -1,0 +1,516 @@
+/*기본값*/
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    max-height: 100%;
+    height: 100%;
+    background-color: #f6f2f1;
+    cursor: url(/resources/img/cursor-pointer.png), auto;
+}
+a {
+    text-decoration: none;
+    cursor: url(/resources/img/cursor-hand.png), auto;
+    color:#000;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.frame {
+    width: 1280px;
+    height: inherit;
+    margin: 0 auto;
+}
+table {border-collapse:collapse; border-spacing:0;}
+/**************헤더****************/
+header {
+    margin-top: 66px;
+    width: 100%;
+    height: 110px;
+}
+
+header>.frame {
+    border: solid 5px #000000;
+}
+
+header img {
+    display: block;
+    margin: 44px 0 0 44px;
+    float: left;
+}
+.navbar a {
+    color: #1b1b1b;
+}
+.nav-menu {
+    text-align: center;
+    width: auto;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: left;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1b1b1b;
+    padding: 0 20px 0 20px;
+    height: 105px;
+}
+.nav-menu:hover {
+    font-size: 0;
+}
+.first-nav {
+    margin-left: 200px;
+    width: 102px;
+}
+.first-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐스토리';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    height: 115px;
+}
+.second-nav {
+    width: 80px;
+}
+.second-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐팟';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.third-nav {
+    width: 120px;
+}
+.third-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 짐마켓';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.fourth-nav {
+    width: 98px;
+}
+.fourth-nav:hover:before {
+    font-family: 'Noto Sans KR', sans-serif;
+    content: ' 근딜';
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-align: center;
+    width: 100%;
+}
+.login-box li {
+    text-align: center;
+    width: 100px;
+    height: 100%;
+    font-family: 'Anton', sans-serif;
+    line-height: 110px;
+    float: right;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #1b1b1b;
+    border-left: solid 5px #000000; 
+}
+.login-box li:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/**************헤더끝****************/
+/*****************메인시작************************/
+main {
+    width: 100%;
+}
+main>.frame {
+    border: solid 5px #000000;
+}
+
+/****************배너********************/
+.banner {
+    height: 600px;
+    
+}
+.bannerimg {
+    width: 100%;
+    height: auto;
+    border-bottom: solid 5px #000000;
+}
+
+.banner>p {
+    position: relative;
+    top: -484px;
+    text-align: center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    margin:0;
+    font-style: italic;
+}
+
+.banner img:nth-of-type(2) {
+    position: relative;
+    top: -438px;
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+.banner>img:nth-of-type(3) {
+    position: relative;
+    top: -448px;
+    margin-left: 50%;
+    transform: translate(-50%)
+}
+/*****************배너끝*************************/
+/*************************슬로건***************/
+.moving {
+    position: 
+    margin-top: 0;
+    width: 1280px;
+    height: 300px;
+    background: url(/resources/img/slogan.png) 0 center/ 1471px repeat-x;
+    animation: movebg 4s linear infinite;
+    border-bottom: solid 5px #000;
+}
+
+@keyframes movebg {
+    0% {background-position: 0 center;}
+    100% {background-position: -1471px center;}
+}
+/*******************슬로건 끝***************************/
+/*******************짐마켓***************************/
+main h1 {
+    font-weight: normal;
+    font-family: 'Anton', sans-serif;
+    margin-top: 110px;
+    margin-bottom: 0;
+    font-size: 70px;
+    text-align:center;
+}
+main h5 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    font-weight: normal;
+}
+
+#market {
+    height: 680px;
+    border-bottom: solid 5px #000;
+}
+
+#market table {
+    margin: 58px auto 0;
+    width: 1025px;
+    
+    border: solid 3px #000;
+    padding: 0;
+}
+#market table tr {
+    display: block;
+    width:1025px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    margin: 0;
+}
+#market .tableheader {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    font-weight: 0;
+    letter-spacing: 1.3px;
+}
+
+.tableheader>th:nth-child(1), tr td:nth-child(1) {
+    width: 110px;
+}
+.tableheader>th:nth-child(2), tr td:nth-child(2){
+    width: 510px;
+}
+.tableheader>th:nth-child(3), tr td:nth-child(3){
+    width: 220px;
+}
+.tableheader>th:nth-child(4), tr td:nth-child(4){
+    width: 220px;
+}
+
+table>tr:not(:last-child) {
+    border-bottom: solid 3px #000;
+}
+table tr:hover {
+    background-color: #fff;
+    cursor: url(/resources/img/cursor-hand.png), auto;
+}
+
+tr td {
+    color: #000;
+    font-size: 18px;
+}
+/********************마켓끝*********************/
+/********************딜시작*********************/
+#deal {
+    height: 740px;
+    border-bottom: solid 5px #000;
+}
+#deal .moving {
+    border: 0;
+    margin-top: 100px;
+}
+#deal ul {
+    position: relative;
+    top: -400px;
+    width: 1080px;
+    margin: 51px auto 0;
+}
+.contents {
+    width: 336px;
+    height: 430px;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 35px;
+}
+.contents:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .3);
+}
+.contents:not(:nth-child(3n+1)) {
+    margin-left: 35px;
+}
+.contents>a {
+    width: 100%;
+    height: 100%;
+}
+.img-box {
+    display: block;
+    width: 310px;
+    height: 216px;
+    margin: 13px auto 0;
+    overflow: hidden;
+    align-content: center;
+}
+.content-text {
+    width: 310px;
+    height: 120px;
+    margin: 20px auto 0;
+}
+.title-area {
+    position: relative;
+    height: 30px;
+}
+.title-area span {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 500;
+    bottom: 0;
+    color: #000;
+}
+.title-area p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    color: #a90000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sale-time {
+    margin-top: 26px;
+}
+.sale-time p {
+    line-height: 15px;
+    color: #9b9b9b;
+}
+.content-text button {
+    width: 96px;
+    height: 40px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50px;
+    border: 0;
+    float: right;
+    cursor: url(resources/img/cursor-hand.png), auto;
+    
+}
+/******************딜끝*********************/
+/******************스토리*********************/
+.enddiv {
+    height: 480px;
+}
+#story {
+    position: relative;
+    bottom: 300px;
+    width: 838px;
+    height: 480px;
+    border-right: solid 5px #000;
+    background: url(/resources/img/main_story.png);
+    display: inline-block;
+}
+#story .titlebox {
+    position: relative;
+    width: 700px;
+    height: 480px;
+    margin: auto;
+}
+#story h2 {
+    position: relative;
+    width: 350px;
+    height: 50px;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    font-weight: normal;
+    line-height: 50px;
+    top: 70px;
+}
+#story h1 {
+    position: relative;
+    height: 100px;
+    text-align: left;
+    margin: 0;
+    top: 100px;
+    line-height: 80px;
+}
+#story p {
+    margin-top: 160px;
+    margin-bottom: 40px;
+}
+
+#story button {
+    background-color: #000;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    font-family:  'Anton', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    border: solid 3px #000;
+    cursor: url(/resources/img/cursor-hand.png), auto;
+}
+#story button:hover {
+    background-color: #fff;
+    color: #000;
+}
+/********************스토리끝***********************/
+/********************비즈니스***********************/
+#business {
+    position: relative;
+    bottom: 300px;
+    width: 433px;
+    height: 480px;
+    background: url(/resources/img/main-business.png);
+    display: inline-block;
+    z-index: 2;
+}
+#business h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    position: relative;
+    top: 70px;
+    font-weight: normal;
+    line-height: 50px;
+    text-align: center;
+}
+#business h1 {
+    position: relative;
+    height: 100px;
+    text-align: center;
+    margin: 0;
+    top: 100px;
+    line-height: 80px;
+}
+#business p {
+    margin-top: 160px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#business button {
+    display: block;
+    background-color: #000;
+    border-radius: 30px;
+    width: 100px;
+    height: 40px;
+    font-family:  'Anton', sans-serif;
+    border: solid 3px #000;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    margin: 0 auto;
+    cursor: url(/resources/img/cursor-hand.png), auto;
+}
+#business button:hover {
+    background-color: #fff;
+    color: #000;
+}
+/*****************메인끝************************/
+/******************푸터********************/
+footer {
+    width: 100%;
+    height: 300px;
+}
+footer>.frame {
+    border: solid 5px #000000;
+    background-color: #000;
+}
+footer img {
+    margin-top: 58px;
+    margin-left: 44px;
+    margin-bottom: 20px;
+}
+
+.footer-contents {
+    width: 1182px;
+    margin-left: 44px;
+    padding-bottom: 28px;
+    border-bottom: solid 1px #888;
+}
+
+footer p {
+    color: #888;
+    font-size: 14px;
+    letter-spacing: -0.35px;
+    line-height: 15px;
+}
+footer .stick:after {
+    content: "";
+    top: 1px;
+    left: 0;
+    width: 1px;
+    height: 12px;
+    background: #444;
+    position: relative;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.copyright {
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #fff;
+    letter-spacing: 0.2em;
+    margin-left: 44px;
+}
+.copyright span {
+    font-size: 20px;
+    line-height: 0;
+    vertical-align: middle;
+    margin-top: 2px;
+    display: inline-block;
+}
