@@ -31,6 +31,10 @@ kim yun jeong
 ---
 ## Doument
 1. 유즈케이스
-2. 플로우차트
-3. ERD다이어그램
+  사용자
+  ![image](https://user-images.githubusercontent.com/82187403/118356213-13bd2800-b5af-11eb-928a-ea73c1b906b2.png)
+  관리자 
+  
+3. 플로우차트
+4. ERD다이어그램
 ![image](https://user-images.githubusercontent.com/82187403/118356169-eb352e00-b5ae-11eb-95f8-cad4461f2ce6.png)
