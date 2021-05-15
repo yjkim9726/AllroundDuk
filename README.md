@@ -33,3 +33,4 @@ kim yun jeong
 1. 유즈케이스
 2. 플로우차트
 3. ERD다이어그램
+![image](https://user-images.githubusercontent.com/82187403/118356169-eb352e00-b5ae-11eb-95f8-cad4461f2ce6.png)
