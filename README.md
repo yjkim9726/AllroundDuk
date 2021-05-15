@@ -1,14 +1,13 @@
-GYMCARRY PROJECT
-====
-kim yun jeong
-----
+# SemiProject
+### 프로젝트명: GYM CARRY
+### 프로젝트 기간: 2021.03.19 ~ 04.22
+---
 ## Contents
-1.[개요](#개요) <br>
-2.[사용기술 및 개발환경](#사용기술-및-개발환경) <br>
-3.[프로젝트 기능 구현](#프로젝트-기능-구현) <br>
-4.[주요기능](#주요-기능) <br>
-5.[Doument](#doument) <br>
-
+### 1.[개요](#개요) 
+### 2.[사용기술 및 개발환경](#사용기술-및-개발환경)
+### 3. [프로젝트 기능구현](#프로젝트-기능구현)
+### 4. [주요기능](#주요기능)
+### 5. [설계](#설계)
 ---
 ## 개요
 ### 기획의도
@@ -29,18 +28,23 @@ kim yun jeong
 * Service：Zeplin, Googledocument, Slack
 
 ---
-## Doument
+## 주요기능
+
+---
+## 설계
 1. 유즈케이스
-  - 사용자
+  + 사용자
   ![image](https://user-images.githubusercontent.com/82187403/118356213-13bd2800-b5af-11eb-928a-ea73c1b906b2.png)
-  - 관리자 
+  + 관리자 
   ![image](https://user-images.githubusercontent.com/82187403/118356216-1b7ccc80-b5af-11eb-8d65-0d796cf177e7.png)
 
 2. 플로우차트
-  - 사용자
+  + 사용자
+  
   ![image](https://user-images.githubusercontent.com/82187403/118356221-1f105380-b5af-11eb-8fe0-6c8b632c4ebf.png)
-  - 관리자
+  + 관리자
+
   ![image](https://user-images.githubusercontent.com/82187403/118356224-22a3da80-b5af-11eb-8bc5-549f4355abdf.png)
 
 3. ERD다이어그램
-![image](https://user-images.githubusercontent.com/82187403/118356169-eb352e00-b5ae-11eb-95f8-cad4461f2ce6.png)
+  ![image](https://user-images.githubusercontent.com/82187403/118356169-eb352e00-b5ae-11eb-95f8-cad4461f2ce6.png)
